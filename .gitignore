@@ -168,3 +168,7 @@ backend.tf
 .idea
 *.iml
 terraform-docs
+
+# custom_metrics
+custom_metrics/.env
+custom_metrics/*/secret
