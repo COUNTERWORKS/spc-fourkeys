@@ -1,7 +1,12 @@
 [
   {
     "mode": "NULLABLE",
-    "name": "incident_id",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "metadata",
     "type": "STRING"
   },
   {
@@ -11,12 +16,12 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "time_resolved",
-    "type": "TIMESTAMP"
+    "name": "signature",
+    "type": "STRING"
   },
   {
-    "mode": "REPEATED",
-    "name": "changes",
+    "mode": "NULLABLE",
+    "name": "source",
     "type": "STRING"
   }
 ]
